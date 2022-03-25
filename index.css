@@ -136,3 +136,39 @@ nav a:hover{
     align-items:center; height: 300px;
     justify-content: space-around;
 }
+
+/*La seccion de Tammy - OPINIONES*/
+
+.container-opiniones {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+
+.container-opiniones h2{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(155, 5, 5);
+}
+.content-opiniones{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    max-width: 1100px;
+}
+
+.opinion{
+    height: 200px;
+    margin: 10px;
+    padding: 40px 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(168, 168, 168);
+}
+
+.opinion img{
+    width: 100px;
+}
+
